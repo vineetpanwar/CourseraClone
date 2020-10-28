@@ -1,0 +1,154 @@
+
+.explore-button {
+    align-items: center;
+      border-radius: 3px;
+      background-color: #2a73cc;
+      font-weight: 600;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 36px;
+      width: 92px;
+      margin-left: 1.5%;
+  }
+  
+  .arrow.down {
+    transform: rotate(-135deg);
+    right: 175px;
+  }
+  .arrow {
+    margin-left: 5px;
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px ;
+    position: sticky;
+    top:0;
+    background: #fff;
+    z-index: 10;
+  }
+  
+  .smallCompanyLogo {
+    font-size: 16px;
+    width: 108px;
+    height: 17px;
+  }
+  
+  .bigCompanyLogo {
+    font-size: 16px;
+    width: 127px;
+    height: 32px;
+  }
+  
+  .searchBox {
+   width: 80%;
+   height: 40px;
+   font-family: Helvetica,sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   box-shadow: none;
+   margin-bottom: 0;
+   border: 1px solid #e1e1e1;
+   border-radius: 2px 0 0 2px;
+   background: #fff;
+  } 
+  
+  .searchIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #2a73cc;
+    color: #fff;
+    width: 40px;
+    height: 44px;
+  }
+  
+  .searchContainer {
+    width:35%;
+    display:flex;
+    margin-left: 2.5%;
+  }
+  
+  .options, .login{
+    height: 65px;
+    width: 120px;
+    color: #1f1f1f;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: OpenSans,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+  }
+  .rightContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+  }
+  
+  .register {
+    width: 140px;
+    border-radius: 3px;
+    background-color: #2a73cc;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+  }
+  
+  .login {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    color: #0056d2;
+    font-size: 14px;
+  }
+  
+  .optionSeparator {
+    margin-right: 4%;
+    margin-top: 4%;
+    height:30px;
+    display:flex;
+    border-right: 1px solid #A8A8A8;
+  }
+  
+  .registerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menuIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #363B42;
+    margin-right: 20px;
+  }
+  
+  .mobileSearchIcon > circle , .mobileSearchIcon > line {
+    stroke: #373a3c;
+  }
+  
+  .mobileSearchIcon {
+    margin-left: auto;
+  }

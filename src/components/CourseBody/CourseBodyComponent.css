@@ -1,0 +1,213 @@
+.courseBody {
+    width:100%;
+    position: relative;
+}
+
+.roboBanner {
+    background-color: #271066;
+    color: #fff;
+    width: 100%;
+}
+
+.build-skills {
+    font-family: OpenSans,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 33px;
+}
+
+.joinFree {
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 16px;
+
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 0 solid transparent;
+    color: #2a73cc;
+    font-size: 20px;
+    outline: none;
+    padding: 23px 48px;
+    transition: background-color .2s ease,color .2s ease;
+}
+
+.bannerContainer {
+    margin: 0 auto;
+    max-width: 1400px;
+    position: relative;
+    width: 100%;
+}
+
+.textContainer {
+    margin-left: 100px;
+    max-width: 560px;
+    padding: 90px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+.bannerTitle {
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 13px;
+}
+
+.roboGradient {
+    background: linear-gradient(90deg,#271066,rgba(39,16,102,0) 85%,rgba(39,16,102,0) 0,#271066);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.roboGirl {
+    background-image: url("../../assets/image/robot-girl.jpg");
+    
+    background-position: 50%;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.partners {
+    margin: 30px auto;
+    max-width: 1152px;
+    text-align: center;
+    width: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.partnerTitle {
+    color: #000;
+    font-family: OpenSans,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.partnerLogo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1132px;
+    padding: 0 10px;
+    width: 100%;
+    border-bottom:1px solid #F0F0F0;
+}
+
+.eachLogo {
+    display: inline-block;
+    margin: 0 10px 30px;
+    max-height: 32px;
+}
+
+.advantages {
+    margin-top: 50px;
+    margin-bottom: 119px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achieveTitle {
+    display: block;
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.achieveList { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    width:80%;
+    justify-content: space-evenly;
+}
+
+.achieveItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 190px;
+    width: 100%;
+}
+
+.achieveImgContainer {
+    margin-bottom: 10px;
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.achieveImg {
+    max-height: 55px;
+    max-width: 55px;
+    vertical-align: middle;
+}
+
+.achieveItemTitle {
+    font-family: OpenSans,Arial,sans-serif;
+    color: #666;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 1.5rem;
+}
+
+.achieveSmallItemDesc {
+    color: #1f1f1f;
+    display: block;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .roboGirl {
+        background-position: 65% 50%;
+        opacity: .34;
+    }
+
+    .textContainer {
+    margin: 0 auto;
+    padding: 60px 20px 45px;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .partnerLogo {
+        max-width: 375px;
+        padding-bottom: 15px;
+    }
+}
+@media screen and (max-width: 780px)  {
+    .partnerLogo {
+        flex-wrap: wrap;
+        max-width: 555px;
+    }
+}
